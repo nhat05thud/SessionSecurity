@@ -1,0 +1,8 @@
+﻿@using SessionSecurity.Security
+@{
+    ViewBag.Title = "Success";
+}
+
+<h2>Welcome <b>@SessionPersister.Username</b></h2>
+
+<a href="@Url.Action("Logout","Account")">Logout</a>

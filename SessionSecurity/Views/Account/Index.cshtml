@@ -1,0 +1,18 @@
+﻿@model SessionSecurity.ViewModels.AccountViewModel
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Account</h2>
+
+@using (Html.BeginForm("Login", "Account", FormMethod.Post))
+{
+    <p>@ViewBag.Error</p>
+    <div class="form-group">
+        @Html.TextBoxFor(x => x.Account.Username, new { @class = "form-control" })
+    </div>
+    <div class="form-group">
+        @Html.PasswordFor(x => x.Account.Password, new { @class = "form-control" })
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+}

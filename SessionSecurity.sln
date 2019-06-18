@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SessionSecurity", "SessionSecurity\SessionSecurity.csproj", "{0E488251-BF08-4EB9-B3C7-5FC8EB37DC41}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E488251-BF08-4EB9-B3C7-5FC8EB37DC41}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E488251-BF08-4EB9-B3C7-5FC8EB37DC41}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E488251-BF08-4EB9-B3C7-5FC8EB37DC41}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E488251-BF08-4EB9-B3C7-5FC8EB37DC41}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E21ADC4D-EE38-4D0B-AF47-7DF53496AAF9}
+	EndGlobalSection
+EndGlobal
